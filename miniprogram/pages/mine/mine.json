@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-field": "@vant/weapp/field/index",
+    "van-image": "@vant/weapp/image/index"
+  },
+  "navigationBarTitleText": "我的",
+  "navigationBarBackgroundColor": "#ccdd00",
+  "navigationBarTextStyle": "white"
+}

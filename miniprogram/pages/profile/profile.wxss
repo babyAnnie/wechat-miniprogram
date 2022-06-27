@@ -1,0 +1,19 @@
+/* pages/profile/profile.wxss */
+.profile-wrapper {
+  padding: 8rpx;
+}
+
+.label {
+  margin-top: 8rpx;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32rpx;
+  margin: 8rpx 0;
+}
+
+.rate {
+  display: inline-block;
+}

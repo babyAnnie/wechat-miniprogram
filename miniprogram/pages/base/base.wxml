@@ -1,0 +1,35 @@
+<!--pages/base/base.wxml-->
+
+<view class="base-wrapper">
+  <text>{{msg}}</text>
+  <view wx:for="{{arr}}" wx:key="index">
+    {{index}} - {{item}}
+  </view>
+  <view wx:for="{{list}}" wx:key="index" class="box">
+    <view>
+      name: {{item.name}}
+    </view>
+    <view>
+      age: {{item.age}}
+    </view>
+  </view>
+
+
+  <view wx:if="{{isLogin}}">
+    登录后显示此消息
+  </view>
+  <view wx:else>
+    你还没登录哈哈哈哈哈哈哈
+  </view>
+  <view hidden="{{isLogin}}">
+    登录后隐藏
+  </view>
+
+
+  <view bindtap="onTapHandler" class="banner" data-id="thank001">
+    点我数字+1: <text class="banner-text">{{count}}</text>
+  </view>
+
+
+  <van-button type="info" bindtap="handleJump">点我跳转</van-button>
+</view>

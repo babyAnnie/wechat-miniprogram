@@ -1,0 +1,35 @@
+<!--pages/cloud/cloud.wxml-->
+<view class="cloud-wrapper">
+
+  <view class="label">云数据库</view>
+  <view class="button-wrapper">
+    <button bindtap="insert" class="button">插入数据</button>
+    <button bindtap="update" class="button">更新数据</button>
+    <button bindtap="search" class="button">查找数据</button>
+    <button bindtap="delete" class="button">删除数据</button>
+  </view>
+
+
+  <view class="label">云函数</view>
+  <view class="button-wrapper">
+    <button bindtap="cloudSum" class="button">调用云函数sum</button>
+    <button bindtap="getOpenID" class="button">获取当前用户openID</button>
+    <button bindtap="cloudBatchDelete" class="button">批量删除数据</button>
+  </view>
+
+
+  <view class="label">云存储</view>
+  <view class="button-wrapper">
+    <button bindtap="upload" class="button">上传图片</button>
+    <button bindtap="getFile" class="button">文件展示</button>
+  </view>
+
+
+  <view wx:for="{{images}}" class="images-wrapper" wx:key="fileID">
+    <view class="iamges-outside">
+      <image src="{{item.fileID}}" class="img"></image>
+      <button size="mini" data-fileid="{{item.fileID}}" bindtap="downloadFile" class="download">下载</button>
+    </view>
+  </view>
+
+</view>

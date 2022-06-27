@@ -1,0 +1,9 @@
+<!--pages/mine/mine.wxml-->
+<view class="mine-wrapper">
+  <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+    <van-image width="168rpx" height="168rpx" src="{{avatarUrl}}" radius="3" />
+  </button>
+  <van-cell-group>
+    <van-field label="昵称" value="{{ username }}" placeholder="这里输入昵称" border="{{ false }}" bind:change="onChange" />
+  </van-cell-group>
+</view>

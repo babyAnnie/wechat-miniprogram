@@ -1,0 +1,29 @@
+{
+  "usingComponents": {
+    "van-steps": "@vant/weapp/steps/index",
+    "van-notice-bar": "@vant/weapp/notice-bar/index",
+
+    "van-empty": "@vant/weapp/empty/index",
+
+    "van-card": "@vant/weapp/card/index",
+    "van-button": "@vant/weapp/button/index",
+
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
+
+
+    "van-goods-action": "@vant/weapp/goods-action/index",
+    "van-goods-action-icon": "@vant/weapp/goods-action-icon/index",
+    "van-goods-action-button": "@vant/weapp/goods-action-button/index",
+
+
+      "van-share-sheet": "@vant/weapp/share-sheet/index",
+    
+      "van-toast": "@vant/weapp/toast/index",
+
+      "van-rate": "@vant/weapp/rate/index"
+  },
+  "navigationBarTitleText": "轮廓",
+  "navigationBarBackgroundColor": "#307fff",
+  "navigationBarTextStyle": "white"
+}

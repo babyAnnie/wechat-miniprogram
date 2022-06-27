@@ -1,0 +1,1 @@
+"F:\Program\微信web开发者工具\cli.bat" cloud functions deploy --e ddy-4ghz32qe19075aad --n quickstartFunctions --r --project "F:\work2022\miniprogram\getting-started-demo" --report_first --report
