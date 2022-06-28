@@ -1,1 +1,1 @@
-"F:\Program\Î¢ÐÅweb¿ª·¢Õß¹¤¾ß\cli.bat" cloud functions deploy --e ddy-4ghz32qe19075aad --n quickstartFunctions --r --project "F:\work2022\miniprogram\getting-started-demo" --report_first --report
+"F:\Program\Î¢ï¿½ï¿½webï¿½ï¿½ï¿½ï¿½ï¿½ß¹ï¿½ï¿½ï¿½\cli.bat" cloud functions deploy --e ddy-4ghz32qe19075aad --n quickstartFunctions --r --project "F:\work2022\miniprogram\wechat-miniprogram" --report_first --report
